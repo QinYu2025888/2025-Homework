@@ -215,7 +215,8 @@ table {
 
 .icon1 img{
     max-width: 24px;
-    width: 50%;
+    width: 100%;
+    height: auto;
 }
 
 .icon1 a{
@@ -253,7 +254,9 @@ table {
     font-size: 32px;
     line-height: 1.5;
     font-family: sans-serif;
-    width: 1036px;
+    max-width: 1036px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .msg{
